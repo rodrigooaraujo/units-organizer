@@ -1,0 +1,77 @@
+/* @import url('https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300,400,600'); */
+ * {
+	 box-sizing: border-box;
+	 font-family: 'Open Sans', sans-serif;
+	 font-weight: 300;
+}
+ a {
+	 text-decoration: none;
+	 color: inherit;
+}
+ p {
+	 font-size: 1.1em;
+	 margin: 1em 0;
+}
+ .description {
+	 margin: 1em auto 2.25em;
+}
+ body {
+	 width: 70%;
+	 /* min-width: 300px;
+	 max-width: 400px; */
+	 margin: 1.5em auto;
+	 color: rgb(51, 51, 51);
+}
+ h1 {
+	 /* font-family: 'Pacifico', cursive; */
+	 font-weight: 400;
+	 font-size: 2.5em;
+}
+ ul {
+	 list-style: none;
+	 padding: 0;
+}
+ ul .inner {
+	 padding-left: 1em;
+	 overflow: hidden;
+	 display: none;
+}
+ ul .inner.show {
+	/*display: block;
+	*/
+}
+ ul li {
+	 margin: 0.5em 0;
+}
+ ul li a.toggle {
+	 width: 100%;
+	 display: block;
+	 /* background: #bbd260; */
+	 color: #fefefe;
+	 padding: 0.75em;
+	 border-radius: 0.15em;
+	 /* transition: background 0.3s ease; */
+}
+ ul li:hover {
+	 background: rgba(0, 0, 0, 0.9);
+}
+
+ul li a.toggle {
+	background: #bbd260 !important;
+}
+
+.row-unit{
+    background: #bbd260;
+  }
+
+  .item{
+	background: #bbd260;
+  }
+
+  .row-unit:hover {
+	/* background: rgba(0, 0, 0, 0.9) !important; */
+}
+/* .row-unit:hover{
+	background: rgba(0, 0, 0, 0.9) !important;
+} */
+ 

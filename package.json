@@ -1,0 +1,17 @@
+{
+  "name": "units-organizer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rodrigo Araújo <7944362+rodrigooaraujo@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-icons": "^1.5.0",
+    "http-server": "^0.12.3",
+    "lite-server": "^2.6.1",
+    "materialize": "^1.0.0",
+    "mdb-ui-kit": "^3.6.0"
+  },
+  "scripts": {
+    "start": "lite-server"
+  }
+}
